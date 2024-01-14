@@ -1,1 +1,1 @@
-# sparkline-app
+This is Sparkline project

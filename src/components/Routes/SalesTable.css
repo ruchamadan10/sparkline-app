@@ -1,0 +1,72 @@
+.sales-table-container {
+  width: 100%;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sales-table tr{}
+
+.sales-table th,
+.sales-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  position: relative;
+}
+
+.sales-table th {
+  background-color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.sales-table th svg {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.sales-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.sales-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination span {
+  padding: 5px 10px;
+  margin: 0 2px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pagination span.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination span:hover {
+  background-color: #ddd;
+}
+
+.pagination span:first-child,
+.pagination span:last-child {
+  margin: 0;
+}
+
+.pagination span svg {
+  vertical-align: middle;
+  margin-bottom: 2px;
+}

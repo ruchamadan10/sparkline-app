@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sparkline-app/static/css/main.3c28f7fe.css",
-    "main.js": "/sparkline-app/static/js/main.24d38759.js",
+    "main.js": "/sparkline-app/static/js/main.d639a778.js",
     "index.html": "/sparkline-app/index.html",
     "main.3c28f7fe.css.map": "/sparkline-app/static/css/main.3c28f7fe.css.map",
-    "main.24d38759.js.map": "/sparkline-app/static/js/main.24d38759.js.map"
+    "main.d639a778.js.map": "/sparkline-app/static/js/main.d639a778.js.map"
   },
   "entrypoints": [
     "static/css/main.3c28f7fe.css",
-    "static/js/main.24d38759.js"
+    "static/js/main.d639a778.js"
   ]
 }
